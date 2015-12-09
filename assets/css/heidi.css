@@ -1,0 +1,32 @@
+.header-bg-wrapper .logo-container .logo{background: #246fa0;}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+color: #ffffff;
+background-color: #094061;
+}
+
+.navbar-default{background-color: #246fa0;
+border-color: #246fa0;}
+
+.header-links-item {background-color: #246fa0;}
+
+
+.header-links-item .overlay{
+background: #141433;
+opacity: 0;
+position: absolute;
+width: 100%;
+height: 100%;
+z-index: 1;
+-webkit-transition: opacity 0.2s ease 0.1s;
+-o-transition: opacity 0.2s ease 0.1s;
+transition: opacity 0.2s ease 0.1s
+}
+
+.header-links-item a:hover .overlay{
+	opacity: 0.5;
+}
+
+.navbar-vertical ul li a{font-family:"Rokkitt";}
+
+@import url(https://fonts.googleapis.com/css?family=Rokkitt:400,700);
