@@ -183,7 +183,7 @@ jQuery(document).ready(function($){
 			// If the wrapper has 'do-transition' class...
 			if ($('.navbar-wrapper').hasClass('do-transition')) {
 				var $nav = $("#nav-main");
-				if($(this).scrollTop() >= 905) {
+				if($(this).scrollTop() >= 305) {
 					// Show horizontal nav
 					if ($nav.hasClass('navbar-vertical')) {
 						$nav.stop( true, true )
