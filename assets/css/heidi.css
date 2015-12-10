@@ -45,3 +45,22 @@ border: 3pt solid #fff;
 
 	#section-news .heading {text-align: center;}
 .paid-for{ max-width: 435px;}
+
+.featured-slider .item {
+    padding: 6rem 0;
+    height: 260px
+}
+
+@media (min-width:768px) {
+    .featured-slider .item {
+        padding: 9rem 0;
+        height: 600px;
+        overflow: hidden
+    }
+}
+
+@media (min-width:1200px) {
+    .featured-slider .item {
+        height: 720px
+    }
+}
