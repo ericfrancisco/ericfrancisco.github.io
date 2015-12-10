@@ -179,11 +179,11 @@ jQuery(document).ready(function($){
 
 	$(window).on("scroll", function(){
 		// Ignore on small screens
-		if (win_Width >= 1200) {
+		if (win_Width >= 1100) {
 			// If the wrapper has 'do-transition' class...
 			if ($('.navbar-wrapper').hasClass('do-transition')) {
 				var $nav = $("#nav-main");
-				if($(this).scrollTop() >= 305) {
+				if($(this).scrollTop() >= 275) {
 					// Show horizontal nav
 					if ($nav.hasClass('navbar-vertical')) {
 						$nav.stop( true, true )

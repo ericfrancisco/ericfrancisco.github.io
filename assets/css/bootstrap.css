@@ -8761,18 +8761,8 @@ div:not([class*='navbar-wrapper']) > .navbar .navbar-toggle {
   background: #cf0711;
 }
 /* Vertical Navigation */
-@media (max-width: 1199px) {
-  .navbar-wrapper .navbar-vertical {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    margin-top: 0;
-    margin-bottom: 0;
-    border-width: 0;
-    border-radius: 0;
-  }
-}
+
+
 @media (min-width: 1200px) {
   .navbar-vertical {
     border: 0;
