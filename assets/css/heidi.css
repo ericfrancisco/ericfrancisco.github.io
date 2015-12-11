@@ -273,4 +273,28 @@ border: 3pt solid #fff;
     }
 }
 
+.header-links-item article h3{
+    font-family: "Rokkitt";
+    font-size: 22px;
+}
+#footer.with-overlap .container-box h3{
+  font-family: "Rokkitt";
+}
+#footer.with-overlap .container-box button{font-family: "Rokkitt";font-size: 18px;}
 
+#footer a{font-family: "Rokkitt";
+font-size: 20px;}
+
+.post .entry-title, .issue .entry-title{
+  font-size: 46px;
+  font-family: "Rokkitt";
+  font-weight: 700;
+}
+
+h1.page-title{
+  font-family: "Rokkitt";
+font-size: 60px;
+color: #246fa0;
+text-transform: none;
+text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
