@@ -4,15 +4,18 @@
   margin-bottom: 63px;
   padding-top: 1px;
 }
+
 @media (max-width: 1099px) {
   #header {
     margin-bottom: 30px;
   }
 }
+
 #header .top-header-inner .page-header.intro-wrap {
   margin-top: 15px;
   margin-bottom: 15px;
 }
+
 #header .top-header-inner .page-header.intro-wrap .page-title {
   color: #fff;
   text-align: center;
@@ -20,6 +23,7 @@
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
 #header.header-bg {
   background-position: center;
   background-repeat: no-repeat;
@@ -30,51 +34,63 @@
   margin-bottom: 0;
   position: relative;
 }
+
 @media (min-width: 768px) {
   #header.header-bg {
     padding-top: 20%;
   }
 }
+
 @media (min-width: 1600px) {
   #header.header-bg {
     padding-top: 335px;
   }
 }
+
 #header.header-bg.header-large {
   height: 280px;
 }
+
 @media (min-width: 500px) {
   #header.header-bg.header-large {
     padding-top: 56.25%;
   }
 }
+
 @media (min-width: 1600px) {
   #header.header-bg.header-large {
     padding-top: 900px;
   }
 }
+
 #header.header-nav-bottom {
   margin-bottom: 94px;
 }
+
 @media (min-width: 768px) {
   #header.header-nav-bottom {
     margin-bottom: 139px;
   }
 }
+
 #header.header-nav-top {
   margin-top: 64px;
 }
+
 #header.header-nav-top.header-nav-toggle {
   margin-top: 0;
 }
+
 @media (max-width: 1099px) {
   #header.header-nav-top.header-nav-toggle {
     margin-top: 64px;
   }
 }
+
 .cover #header.header-nav-top {
   margin-top: 0;
 }
+
 .header-bg-wrapper {
   display: table;
   width: 100%;
@@ -82,39 +98,46 @@
   position: absolute;
   top: 0;
 }
+
 .header-bg-wrapper .header-inner {
   display: table-cell;
   width: 100%;
   vertical-align: middle;
 }
+
 .offset-bottom .header-bg-wrapper .header-inner {
   padding-bottom: 75px;
 }
+
 .header-bg-wrapper .logo-container .logo {
   display: none;
   width: 500px;
   height: 280px;
   background: #141433;
 }
+
 .header-bg-wrapper .logo-container .logo .logo-wrapper {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
   height: 280px;
 }
+
 .header-bg-wrapper .logo-container .logo .logo-wrapper .logo-inner-wrapper {
   width: 500px;
 }
+
 @media (min-width: 1100px) {
   .header-bg-wrapper .logo-container .logo {
     display: block;
   }
-.container-fluid {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
+
+  .container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 /* Vertical Navigation */
@@ -130,31 +153,38 @@
     border-radius: 0;
   }
 }
+
 @media (min-width: 1100px) {
   .navbar-vertical {
     border: 0;
     border-radius: 0;
     float: right;
   }
+
   .navbar-wrapper .navbar-vertical.navbar {
     margin-top: 0;
     margin-bottom: 0;
   }
+
   .navbar-vertical .navbar-header {
     display: none;
   }
+
   .navbar-vertical .navbar-collapse,
   .navbar-vertical .container-fluid {
     padding-left: 0;
     padding-right: 0;
   }
+
   .navbar-vertical ul {
     margin-bottom: 0;
     float: none;
   }
+
   .navbar-vertical ul .open {
     background: rgba(0, 0, 0, 0.3);
   }
+
   .navbar-vertical ul li {
     float: none;
     width: 200px;
@@ -163,15 +193,18 @@
     font-weight: 300;
     position: relative;
   }
+
   .navbar-vertical ul li a {
     display: block;
     font-size: 18px;
     font-weight: 300;
     padding: 18px 15px 18px 25px;
   }
+
   .navbar-vertical ul li a.dropdown-toggle:after {
     content: none;
   }
+
   .navbar-vertical ul .dropdown-menu {
     right: 100%;
     top: 0;
@@ -181,26 +214,32 @@
     border-radius: 0;
     background-clip: border-box;
   }
-  .navbar-vertical ul .dropdown-menu > li {
+
+  .navbar-vertical ul .dropdown-menu>li {
     font-weight: 300;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   }
-  .navbar-vertical ul .dropdown-menu > li > a,
-  .navbar-vertical ul .dropdown-menu > li > a:hover,
-  .navbar-vertical ul .dropdown-menu > li > a:visited,
-  .navbar-vertical ul .dropdown-menu > li > a:active {
+
+  .navbar-vertical ul .dropdown-menu>li>a,
+  .navbar-vertical ul .dropdown-menu>li>a:hover,
+  .navbar-vertical ul .dropdown-menu>li>a:visited,
+  .navbar-vertical ul .dropdown-menu>li>a:active {
     font-size: 18px;
   }
-  .navbar-vertical ul .dropdown-submenu > .dropdown-menu {
+
+  .navbar-vertical ul .dropdown-submenu>.dropdown-menu {
     left: auto;
     right: 100%;
   }
+
   .navbar-vertical ul#nav-right {
     position: absolute;
   }
+
   .navbar-vertical ul#nav-right li {
     background: #ba1c24;
   }
+
   .navbar-vertical ul#nav-right li a:hover {
     color: #fff;
     background: #cf0711;
@@ -208,93 +247,123 @@
 }
 
 
-.header-bg-wrapper .logo-container .logo{background: #246fa0;}
-
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
-color: #ffffff;
-background-color: #094061;
+.header-bg-wrapper .logo-container .logo {
+  background: #246fa0;
 }
 
-.navbar-default{background-color: #246fa0;
-border-color: #246fa0;}
-
-.header-links-item {background-color: #246fa0;}
-
-
-.header-links-item .overlay{
-background: #141433;
-opacity: 0;
-width: 100%;
-height: 100%;
-z-index: 1;
--webkit-transition: opacity 0.2s ease 0.1s;
--o-transition: opacity 0.2s ease 0.1s;
-transition: opacity 0.2s ease 0.1s
-border: 3pt solid #fff;
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+  color: #ffffff;
+  background-color: #094061;
 }
 
-.header-links-item a:hover .overlay{
-	opacity: 0.5;
+.navbar-default {
+  background-color: #246fa0;
+  border-color: #246fa0;
+}
+
+.header-links-item {
+  background-color: #246fa0;
 }
 
 
-.header-links-item, .overlay{border-right: 3pt solid #fff;}
-
-
-.navbar-vertical ul li a{
-	font-family:"Rokkitt";
-	font-size: 20px;
+.header-links-item .overlay {
+  background: #141433;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  -webkit-transition: opacity 0.2s ease 0.1s;
+  -o-transition: opacity 0.2s ease 0.1s;
+  transition: opacity 0.2s ease 0.1s border: 3pt solid #fff;
 }
 
-.navbar-collapse ul li a{	font-family:"Rokkitt";
-	font-size: 20px;}
+.header-links-item a:hover .overlay {
+  opacity: 0.5;
+}
 
-	.navbar-brand img{margin-right: 40px;}
 
-	#section-news .heading {text-align: center;}
-.paid-for{ max-width: 435px;}
+.header-links-item,
+.overlay {
+  border-right: 3pt solid #fff;
+}
+
+
+.navbar-vertical ul li a {
+  font-family: "Rokkitt";
+  font-size: 20px;
+}
+
+.navbar-collapse ul li a {
+  font-family: "Rokkitt";
+  font-size: 20px;
+}
+
+.navbar-brand img {
+  margin-right: 40px;
+}
+
+#section-news .heading {
+  text-align: center;
+}
+
+.paid-for {
+  max-width: 435px;
+}
 
 .featured-slider .item {
-    padding: 6rem 0;
-    height: 260px
+  padding: 6rem 0;
+  height: 260px
 }
 
 @media (min-width:768px) {
-    .featured-slider .item {
-        padding: 9rem 0;
-        height: 600px;
-        overflow: hidden
-    }
+  .featured-slider .item {
+    padding: 9rem 0;
+    height: 600px;
+    overflow: hidden
+  }
 }
 
 @media (min-width:1200px) {
-    .featured-slider .item {
-        height: 720px
-    }
+  .featured-slider .item {
+    height: 720px
+  }
 }
 
-.header-links-item article h3{
-    font-family: "Rokkitt";
-    font-size: 22px;
+.header-links-item article h3 {
+  font-family: "Rokkitt";
+  font-size: 22px;
 }
-#footer.with-overlap .container-box h3{
+
+#footer.with-overlap .container-box h3 {
   font-family: "Rokkitt";
 }
-#footer.with-overlap .container-box button{font-family: "Rokkitt";font-size: 18px;}
 
-#footer a{font-family: "Rokkitt";
-font-size: 20px;}
+#footer.with-overlap .container-box button {
+  font-family: "Rokkitt";
+  font-size: 18px;
+}
 
-.post .entry-title, .issue .entry-title{
+#footer a {
+  font-family: "Rokkitt";
+  font-size: 20px;
+}
+
+.post .entry-title,
+.issue .entry-title {
   font-size: 26px;
   font-family: "Rokkitt";
   font-weight: 700;
 }
 
-h1.page-title{
+h1.page-title {
   font-family: "Rokkitt";
-font-size: 60px;
-color: #246fa0;
-text-transform: none;
-text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+  font-size: 60px;
+  color: #246fa0;
+  text-transform: none;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.donation-widget.tabs {
+  max-width: 515px !important;
 }
